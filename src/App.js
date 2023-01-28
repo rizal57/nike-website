@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Slider from './components/Slider';
 
 function App() {
     return (
@@ -7,6 +8,7 @@ function App() {
             <div className="container px-8 mx-auto">
                 <Header />
                 <Hero />
+                <Slider />
             </div>
         </div>
     );

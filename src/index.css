@@ -6,6 +6,19 @@ body {
     @apply bg-[#111] text-[#999999];
 }
 
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-[#333];
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-t from-[#777] to-[#555] rounded-full;
+}
+
 .header .circle {
     @apply p-2 rounded-full bg-[#3c3c3c];
 }
@@ -16,4 +29,28 @@ body {
 
 .nav-link > li {
     @apply font-semibold cursor-pointer hover:text-[#555555] transition ease-out duration-300;
+}
+
+.swiper {
+    width: 70rem;
+    position: unset;
+}
+
+.swiper-slide {
+    @apply bg-[#222] rounded-xl p-4;
+}
+
+.slide-container .swiper-button-prev {
+    @apply text-[#777] -translate-x-16 transition-all duration-300 drop-shadow-xl;
+}
+.slide-container .swiper-button-next {
+    @apply text-[#777] translate-x-16 transition-all duration-300 drop-shadow-xl;
+}
+
+.slide-container:hover .swiper-button-next {
+    @apply translate-x-0;
+}
+
+.slide-container:hover .swiper-button-prev {
+    @apply translate-x-0;
 }
