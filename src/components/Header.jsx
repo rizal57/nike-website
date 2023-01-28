@@ -20,17 +20,17 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <div className="flex items-center gap-4">
-                <div className="bg-[#3c3c3c] py-2 px-4 flex items-center rounded-full">
+            <div className="flex items-center gap-4 mr-[10%]">
+                <div className="bg-[#3c3c3c] py-2 px-4 flex items-center rounded-full shadow-lg shadow-black">
                     <input type="text" placeholder="Search here" className="bg-[#3c3c3c] outline-none placeholder:text-[#777777] text-[#999999]" />
                     <button>
                         <Search className="icon" />
                     </button>
                 </div>
-                <button className="circle hover:bg-[#333333] transition ease-out duration-300">
+                <button className="circle hover:bg-[#333333] transition ease-out duration-300 shadow-lg shadow-black">
                     <Bookmark className="icon" />
                 </button>
-                <button className="circle hover:bg-[#333333] transition ease-out duration-300">
+                <button className="circle hover:bg-[#333333] transition ease-out duration-300 shadow-lg shadow-black">
                     <ShoppingBag className="icon" />
                 </button>
             </div>
