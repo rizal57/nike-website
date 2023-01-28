@@ -3,11 +3,11 @@ import slider2 from '../assets/shoes2.png';
 import slider3 from '../assets/shoes3.png';
 import slider4 from '../assets/shoes4.png';
 
-import shoes1 from '../assets/shoes1.png';
-import shoes2 from '../assets/shoes2.png';
-import shoes3 from '../assets/shoes3.png';
-import shoes4 from '../assets/shoes4.png';
-import shoes5 from '../assets/shoes5.png';
+// import shoes1 from '../assets/shoes1.png';
+// import shoes2 from '../assets/shoes2.png';
+// import shoes3 from '../assets/shoes3.png';
+// import shoes4 from '../assets/shoes4.png';
+// import shoes5 from '../assets/shoes5.png';
 
 export const getSlider = [
     {
