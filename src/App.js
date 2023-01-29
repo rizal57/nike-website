@@ -1,3 +1,4 @@
+import Brands from './components/Brands';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Slider from './components/Slider';
@@ -10,6 +11,8 @@ function App() {
                 <Hero />
                 <Slider />
             </div>
+
+            <Brands />
         </div>
     );
 }

@@ -54,3 +54,7 @@ body {
 .slide-container:hover .swiper-button-prev {
     @apply translate-x-0;
 }
+
+.brands > svg {
+    @apply w-24 fill-[#777];
+}
